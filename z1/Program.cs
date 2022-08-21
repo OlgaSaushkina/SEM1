@@ -62,7 +62,8 @@ while (a<=n)
   a++;  
 } */
 
-Console.WriteLine("Введите трехзначное число");
-int n = int.Parse(Console.ReadLine());
+/* Console.WriteLine("Введите трехзначное число");
+int n = int.Parse (Console.ReadLine());
 Console.WriteLine(n%10);
+ */
 
