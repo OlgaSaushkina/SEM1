@@ -1,6 +1,6 @@
 ﻿//Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
-/* Console.WriteLine("Введите трехзначное число");
+Console.WriteLine("Введите трехзначное число");
 int a = int.Parse(Console.ReadLine());
 while (a<100 || a>=1000)
 {
@@ -11,27 +11,12 @@ while (a<100 || a>=1000)
     int b = a%10;
     int result= (a-b)%100/10; 
     Console.WriteLine(a+ " вторая цифра числа -> " + result);
- */
+ 
+
 
 //Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
 /* Console.Clear();
-Console.WriteLine("Введите число: ");
-int a = int.Parse(Console.ReadLine());
-string num=a.ToString();
-if ( a<100)
-{
-    Console.WriteLine (a + "-> нет третьей цифры");
-}
-else if (a>99)
-{
-    Console.WriteLine (a+ " -> третья цифра -> " + num[2]);
-}
-  */
-
-
-
-
-Console.Clear();
 Console.WriteLine("Введите число");
 int a = int.Parse(Console.ReadLine());
 int i=1000;
@@ -43,14 +28,14 @@ if (a < 100)
 }
 else
 {
-while (a>i )
+while (a > i )
 {
     i=i*10;
     n=n*10;
    
 }
 Console.WriteLine((a/n)%10 + " -> третья цифра числа");
-}
+} */
 
 
 /* Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
@@ -71,13 +56,12 @@ while (a<1 || a>7)
 
 if (a >0 && a<6)
 {
-    Console.WriteLine(a + " - > нет (не выходной)");
+    Console.WriteLine(a + " - > рабочий");
 }
 else
 {
-    Console.WriteLine (a + " - > да (выходной)");
+    Console.WriteLine (a + " - > выходной");
 } */
-
 
 
 

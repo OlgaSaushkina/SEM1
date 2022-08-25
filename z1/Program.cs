@@ -144,7 +144,20 @@ else
 } */
 
 
-
+//Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+/* Console.Clear();
+Console.WriteLine("Введите число: ");
+int a = int.Parse(Console.ReadLine());
+string num=a.ToString();
+if ( a<100)
+{
+    Console.WriteLine (a + "-> нет третьей цифры");
+}
+else if (a>99)
+{
+    Console.WriteLine (a+ " -> третья цифра -> " + num[2]);
+}
+  */
 
 
 
