@@ -162,5 +162,24 @@ else if (a>99)
 
 
 
+Console.Clear();
+Console.WriteLine("Введите число");
+int a = int.Parse(Console.ReadLine());
+a=Math.Abs(a); 
+int i=1000;
+int n=1;
 
-
+if (a < 100 && a >-100)
+{
+ Console.WriteLine("В числе нет третьей цифры");
+}
+else
+{
+while (a > i )
+{
+    i=i*10;
+    n=n*10;
+   
+}
+Console.WriteLine("Третья цифра числа -> " + (a/n)%10);
+}
